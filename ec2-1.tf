@@ -10,8 +10,5 @@ resource "aws_instance" "Terraform1" {
 
 }
 
-output "ip1" {
-  value = "${aws_instance.Terraform1.public_ip}"
- 
-}
+
 
